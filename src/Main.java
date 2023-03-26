@@ -69,8 +69,8 @@ public class Main {
         System.out.println("Задача 8");
         int income = 0, deposit = 29000;
         for (int i = 1; i <= 12; i++) {
-            System.out.println("Месяц " + i + ", сумма накоплений равна " + income + " рублей");
             income += deposit;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + income + " рублей");
         }
         System.out.println("Сумма годовых накоплений " + income);
     }
@@ -79,9 +79,9 @@ public class Main {
         System.out.println("Задача 9");
         int income = 0, deposit = 29000;
         for (int i = 1; i <= 12; i++) {
-            System.out.println("Месяц " + i + ", сумма накоплений равна " + income + " рублей");
             income += income * 0.01;
             income += deposit;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + income + " рублей");
         }
         System.out.println("Сумма годовых накоплений " + income);
     }
